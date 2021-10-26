@@ -1,0 +1,8 @@
+.footer__about {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border-left: 1px solid #E1FD2C;
+}/*# sourceMappingURL=footer__about.css.map */

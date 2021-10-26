@@ -1,0 +1,17 @@
+.promote__about-button {
+  font-size: 15px;
+  width: 360px;
+  height: 64px;
+  border: 1px solid #E1FD2C;
+  background-color: #191D2C;
+  color: #E1FD2C;
+  text-transform: uppercase;
+  margin: 30px 0 0;
+  box-sizing: border-box;
+}
+
+.promote__about-button:hover {
+  cursor: pointer;
+  background-color: #E1FD2C;
+  color: #191D2C;
+}/*# sourceMappingURL=promote__about-button.css.map */

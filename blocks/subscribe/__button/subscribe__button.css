@@ -1,0 +1,12 @@
+.subscribe__button {
+  background-color: #E1FD2C;
+  color: #191D2C;
+  border: 1px solid #E1FD2C;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 1px;
+}
+
+.subscribe__button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=subscribe__button.css.map */

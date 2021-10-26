@@ -1,0 +1,5 @@
+.subscribe__interact {
+  display: grid;
+  grid-template-columns: repeat(4, 85px);
+  margin: 0 0 50px 50px;
+}/*# sourceMappingURL=subscribe__interact.css.map */

@@ -1,0 +1,14 @@
+.galery__right-arrow {
+  background-color: #191D2C;
+  border: none;
+  background-image: url(../../../images/arrowRight.svg);
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 34px;
+  margin-right: 50px;
+}
+
+.galery__right-arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}/*# sourceMappingURL=galery__right-arrow.css.map */

@@ -1,0 +1,8 @@
+.promote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 150px 0;
+}/*# sourceMappingURL=promote.css.map */

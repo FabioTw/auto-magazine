@@ -1,0 +1,5 @@
+.galery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom: 1px solid #E1FD2C;
+}/*# sourceMappingURL=galery.css.map */

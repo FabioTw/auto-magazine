@@ -10,6 +10,15 @@
   height: $height
 
 @mixin tablet
-  @media (max-width: 960px)
+  @media (max-width: 1348px)
     @content
-    
+
+
+@mixin mobile
+  @media (max-width: 767px)
+    @content
+
+@mixin grid($columns: 2, $columns-size: 1fr)
+  display: grid
+  grid-template-columns: repeat($columns, $columns-size)
+  

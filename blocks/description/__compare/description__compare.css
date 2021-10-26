@@ -1,0 +1,4 @@
+.description__compare {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}/*# sourceMappingURL=description__compare.css.map */
