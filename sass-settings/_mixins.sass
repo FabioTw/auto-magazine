@@ -1,0 +1,15 @@
+@mixin flex($justify: flex-start, $align: center, $direction: row, $wrap: nowrap)
+  display: flex
+  justify-content: $justify
+  align-items: $align
+  flex-direction: $direction
+  flex-wrap: $wrap
+
+@mixin wh($width: 100vW, $height: auto)
+  width: $width
+  height: $height
+
+@mixin tablet
+  @media (max-width: 960px)
+    @content
+    
