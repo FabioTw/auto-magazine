@@ -19,6 +19,7 @@
         </ul>
       </nav>
       <img src="./images/logo.svg" alt="Логотип сайта" class="header__logo">
+      <button class="header__open-menu"></button>
     </header>
     <main class="content">
       <section class="promote">
@@ -89,12 +90,12 @@
       <div class="subscribe">
         <h2 class="subscribe__title">Подписка</h2>
         <h3 class="subscribe__subtitle">На новые спецвыпуски машин.</h3>
-        <div class="subscribe__interact">
-          <input type="text" class="subscribe__name" name="name" placeholder="ИМЯ">
-          <input type="text" class="subscribe__surname" name="surname" placeholder="ФАМИЛИЯ">
-          <input type="email" class="subscribe__email" name="email" placeholder="ПОЧТА">
+        <form class="subscribe__interact">
+          <input type="text" class="subscribe__name" name="name" placeholder="ИМЯ" required="required">
+          <input type="text" class="subscribe__surname" name="surname" placeholder="ФАМИЛИЯ" required="required">
+          <input type="email" class="subscribe__email" name="email" placeholder="ПОЧТА" required="required">
           <button class="subscribe__button">Подписка</button>
-        </div>       
+        </form>       
       </div>
       <div class="footer__about">
         <img src="./images/logo.svg" alt="Логотип сайта" class="footer__logo">

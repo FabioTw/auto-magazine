@@ -1,3 +1,8 @@
 .news__header-block {
   height: 497px;
+}
+@media screen and (max-width: 1439px) {
+  .news__header-block {
+    display: none;
+  }
 }/*# sourceMappingURL=news__header-block.css.map */

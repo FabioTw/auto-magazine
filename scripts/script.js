@@ -5,6 +5,11 @@ const newsPointer = document.querySelectorAll('.news__pointer');
 const newsText = document.querySelector('.news__text');
 const active = document.querySelector('.active');
 const newsButton = document.querySelector('.news__button')
+const subscribeButton = document.querySelector('.subscribe__button')
+
+let nameIn = document.querySelector('.subscribe__name');
+let surname = document.querySelector('.subscribe__surname');
+let email = document.querySelector('.subscribe__email');
 
 const photos = [
   {
@@ -36,6 +41,10 @@ galeryRightArrow.addEventListener('click', nextPicture);
 newsPointer[0].addEventListener('click', setActive);
 newsPointer[1].addEventListener('click', setActive);
 newsButton.addEventListener('click', openWeb);
+subscribeButton.addEventListener('click', subscribe);
+nameIn.addEventListener('input', check);
+surname.addEventListener('input', check);
+email.addEventListener('input', check);
 
 function pastPicture() {
   for (let i = 0; i < photos.length; i++) {
@@ -83,4 +92,17 @@ function openWeb() {
   } else if (newsPointer[1].classList.contains('active')) {
     window.open(news[0].link);
   }
+}
+
+function subscribe() {
+  check();
+}
+
+function check() {
+  if (nameIn.value != '' && surname.value != '' && email.value != '') {
+  subscribeButton.textContent = 'Готово!';
+  } else {
+  subscribeButton.textContent = 'Подписка';
+  }
+  console.log(subscribeButton)
 }

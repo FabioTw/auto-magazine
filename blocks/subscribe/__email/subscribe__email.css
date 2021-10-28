@@ -11,6 +11,7 @@
   color: #E1FD2C;
   padding-left: 11px;
   outline: none;
+  box-sizing: border-box;
 }
 
 .subscribe__email::-moz-placeholder {

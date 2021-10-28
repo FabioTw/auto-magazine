@@ -1,1 +1,1 @@
-{"version":3,"sources":["galery__block.sass"],"names":[],"mappings":"AAEA;EACE,gBAAA;EACA,cAAA;AADF","file":"galery__block.css"}
+{"version":3,"sources":["galery__block.sass","../../../sass-settings/_mixins.sass"],"names":[],"mappings":"AAEA;EACE,gBAAA;EACA,cAAA;AADF;ACSE;EDVF;ICME,YDDM;ICEN,YAFgC;EDChC;AACF","file":"galery__block.css"}

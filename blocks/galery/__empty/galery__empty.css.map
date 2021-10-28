@@ -1,1 +1,1 @@
-{"version":3,"sources":["galery__empty.sass"],"names":[],"mappings":"AAEA;EACE,8BAAA;AADF","file":"galery__empty.css"}
+{"version":3,"sources":["galery__empty.sass","../../../sass-settings/_mixins.sass"],"names":[],"mappings":"AAEA;EACE,8BAAA;AADF;ACUE;EDVF;IAII,aAAA;EAAF;AACF","file":"galery__empty.css"}

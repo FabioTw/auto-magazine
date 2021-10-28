@@ -3,4 +3,12 @@
 .description__pluses
   border-right: 1px solid $text-color
   border-left: 1px solid $text-color
-  // margin: 40px 0 0 50px  
+
+  +tablet
+    border-left: none
+    +wh(auto, 505px)
+
+  +mobile
+    border-right: none
+    +wh(100vw)
+    

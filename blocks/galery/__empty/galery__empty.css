@@ -1,3 +1,8 @@
 .galery__empty {
   border-left: 1px solid #E1FD2C;
+}
+@media screen and (max-width: 1439px) {
+  .galery__empty {
+    display: none;
+  }
 }/*# sourceMappingURL=galery__empty.css.map */

@@ -2,10 +2,12 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__links/menu__links.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__open-menu/header__open-menu.css);
 @import url(../blocks/promote/promote.css);
 @import url(../blocks/promote/__about/promote__about.css);
 @import url(../blocks/promote/__about-auto/promote__about-auto.css);
@@ -16,6 +18,9 @@
 @import url(../blocks/description/__text/description__text.css);
 @import url(../blocks/description/__text-span/description__text-span.css);
 @import url(../blocks/description/__pluses/description__pluses.css);
+@import url(../blocks/description/__pluse-list/description__pluse-list.css);
+@import url(../blocks/description/__minuses/description__minuses.css);
+@import url(../blocks/description/__minuse-list/description__minuse-list.css);
 @import url(../blocks/description/__list-header/description__list-header.css);
 @import url(../blocks/description/__list-item/description__list-item.css);
 @import url(../blocks/description/__compare/description__compare.css);

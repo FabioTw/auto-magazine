@@ -2,4 +2,9 @@
   display: grid;
   grid-template-columns: repeat(4, 85px);
   margin: 0 0 50px 50px;
+}
+@media screen and (max-width: 1439px) {
+  .subscribe__interact {
+    grid-template-columns: repeat(4, 84.75px);
+  }
 }/*# sourceMappingURL=subscribe__interact.css.map */

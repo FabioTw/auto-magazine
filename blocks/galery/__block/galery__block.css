@@ -1,4 +1,10 @@
 .galery__block {
   min-width: 720px;
   margin: 0 auto;
+}
+@media screen and (max-width: 1439px) {
+  .galery__block {
+    width: 100vw;
+    height: auto;
+  }
 }/*# sourceMappingURL=galery__block.css.map */

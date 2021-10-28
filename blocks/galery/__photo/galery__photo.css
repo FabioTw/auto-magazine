@@ -1,4 +1,18 @@
 .galery__photo {
   width: 720px;
-  height: 537px;
+  height: 540px;
+}
+@media screen and (max-width: 1439px) {
+  .galery__photo {
+    margin: 34px 0 0 34px;
+    width: 700px;
+    height: 510px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .galery__photo {
+    margin: 20px 0 0 20px;
+    width: 280px;
+    height: 202px;
+  }
 }/*# sourceMappingURL=galery__photo.css.map */

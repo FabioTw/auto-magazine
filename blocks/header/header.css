@@ -5,4 +5,9 @@
   flex-direction: row;
   flex-wrap: nowrap;
   border-bottom: 1px solid #E1FD2C;
+}
+@media screen and (max-width: 1439px) {
+  .header {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=header.css.map */

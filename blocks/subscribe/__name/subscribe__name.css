@@ -5,13 +5,14 @@
   grid-column-start: 1;
   grid-column-end: 3;
   width: 170px;
-  height: 32px;
+  height: 35px;
   background-color: #191D2C;
   border: 1px solid #E1FD2C;
   border-bottom: none;
   color: #E1FD2C;
   padding-left: 11px;
   outline: none;
+  box-sizing: border-box;
 }
 
 .subscribe__name::-moz-placeholder {
