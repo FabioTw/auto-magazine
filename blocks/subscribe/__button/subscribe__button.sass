@@ -1,0 +1,22 @@
+@import ../../../sass-settings/_imports
+
+.subscribe__button
+  background-color: $text-color
+  color: $background
+  border: 1px solid $text-color
+  font-size: 10px
+  line-height: 13px
+  letter-spacing: 1px
+  box-sizing: border-box
+  text-transform: uppercase
+  padding-bottom: 3px
+
+  +mobile
+    +wh(80px, 32px)
+    top: 32px
+    left: 200px
+    position: absolute
+
+
+.subscribe__button:hover
+  cursor: pointer

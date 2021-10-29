@@ -1,0 +1,27 @@
+@import ../../../sass-settings/_imports
+
+.subscribe__name
+  font-size: 9px
+  line-height: 18px
+  letter-spacing: 1px
+  grid-column-start: 1
+  grid-column-end: 3
+  +wh(170px, 35px)
+  background-color: $background
+  border: 1px solid $text-color
+  border-bottom: none
+  color: $text-color
+  padding-left: 11px 
+  outline: none
+  box-sizing: border-box
+
+  +mobile
+    +wh(140px, 32px)
+    grid-column-end: 7
+
+.subscribe__name::placeholder
+  color: $text-color
+  font-size: 9px
+  line-height: 18px
+  letter-spacing: 1px
+  text-transform: uppercase

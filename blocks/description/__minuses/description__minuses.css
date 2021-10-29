@@ -1,0 +1,11 @@
+@media screen and (max-width: 1439px) {
+  .description__minuses {
+    max-width: 382px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .description__minuses {
+    width: 97vw;
+    height: auto;
+  }
+}/*# sourceMappingURL=description__minuses.css.map */

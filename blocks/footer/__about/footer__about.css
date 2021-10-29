@@ -1,0 +1,19 @@
+.footer__about {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border-left: 1px solid #E1FD2C;
+}
+@media screen and (max-width: 1439px) {
+  .footer__about {
+    border: none;
+  }
+}
+@media screen and (max-width: 760px) {
+  .footer__about {
+    width: 97vw;
+    height: auto;
+  }
+}/*# sourceMappingURL=footer__about.css.map */

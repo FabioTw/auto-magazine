@@ -1,0 +1,19 @@
+.promote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 150px 0;
+}
+@media screen and (max-width: 1439px) {
+  .promote {
+    flex-direction: column;
+    margin: 100px 0 264px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .promote {
+    margin: 60px 0 184px;
+  }
+}/*# sourceMappingURL=promote.css.map */

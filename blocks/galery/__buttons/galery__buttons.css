@@ -1,0 +1,13 @@
+.galery__buttons {
+  margin-right: 48px;
+}
+@media screen and (max-width: 1439px) {
+  .galery__buttons {
+    margin-right: 36px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .galery__buttons {
+    margin-right: 0;
+  }
+}/*# sourceMappingURL=galery__buttons.css.map */
