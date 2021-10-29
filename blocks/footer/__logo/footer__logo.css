@@ -1,0 +1,12 @@
+.footer__logo {
+  margin: 53px 50px 165px 0;
+  align-self: flex-end;
+}
+@media screen and (max-width: 760px) {
+  .footer__logo {
+    margin: 59px 0 20px 14px;
+    width: 280px;
+    height: 58px;
+    align-self: flex-start;
+  }
+}/*# sourceMappingURL=footer__logo.css.map */

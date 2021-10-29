@@ -1,0 +1,18 @@
+.description__list-header {
+  margin: 40px 0 50px 50px;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 1439px) {
+  .description__list-header {
+    margin-right: 219px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .description__list-header {
+    margin: 20px 0 40px 14px;
+    font-size: 22px;
+    line-height: 22px;
+  }
+}/*# sourceMappingURL=description__list-header.css.map */

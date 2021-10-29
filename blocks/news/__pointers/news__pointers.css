@@ -1,0 +1,9 @@
+.news__pointers {
+  margin-top: 38px;
+  align-self: flex-end;
+}
+@media screen and (max-width: 760px) {
+  .news__pointers {
+    margin-top: 26px;
+  }
+}/*# sourceMappingURL=news__pointers.css.map */

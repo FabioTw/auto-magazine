@@ -1,0 +1,15 @@
+@import ../../../sass-settings/_imports
+
+.description__pluses
+  border-right: 1px solid $text-color
+  border-left: 1px solid $text-color
+
+  +tablet
+    border-left: none
+    +wh(auto, 505px)
+
+  +mobile
+    border-right: none
+    +wh(97vw)
+    border-bottom: 1px solid $text-color
+    

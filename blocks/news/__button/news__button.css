@@ -1,0 +1,23 @@
+.news__button {
+  background-color: #191D2C;
+  border: 1px solid #E1FD2C;
+  border-radius: 50%;
+  width: 110px;
+  height: 52px;
+  color: #E1FD2C;
+  font-size: 19px;
+}
+@media screen and (max-width: 760px) {
+  .news__button {
+    width: 88px;
+    height: 42px;
+    font-size: 14px;
+  }
+}
+
+.news__button:hover {
+  border: 1px solid #191D2C;
+  background-color: #E1FD2C;
+  color: #191D2C;
+  cursor: pointer;
+}/*# sourceMappingURL=news__button.css.map */

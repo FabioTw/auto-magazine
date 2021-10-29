@@ -1,0 +1,19 @@
+.description__pluses {
+  border-right: 1px solid #E1FD2C;
+  border-left: 1px solid #E1FD2C;
+}
+@media screen and (max-width: 1439px) {
+  .description__pluses {
+    border-left: none;
+    width: auto;
+    height: 505px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .description__pluses {
+    border-right: none;
+    width: 97vw;
+    height: auto;
+    border-bottom: 1px solid #E1FD2C;
+  }
+}/*# sourceMappingURL=description__pluses.css.map */

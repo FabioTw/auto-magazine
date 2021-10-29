@@ -1,0 +1,18 @@
+.news__info {
+  margin: 262px 50px 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+@media screen and (max-width: 1439px) {
+  .news__info {
+    margin: 259px 50px 47px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .news__info {
+    margin: 148px 20px 20px;
+  }
+}/*# sourceMappingURL=news__info.css.map */

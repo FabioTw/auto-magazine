@@ -1,0 +1,25 @@
+.header__open-menu {
+  background-image: none;
+  display: none;
+  width: 26px;
+  height: 22px;
+  background-image: url(../../../images/menu.svg);
+  background-color: #191D2C;
+  border: none;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1439px) {
+  .header__open-menu {
+    display: block;
+    position: absolute;
+    right: 34px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .header__open-menu {
+    right: 20px;
+    width: 20px;
+    height: 18px;
+    background-size: cover;
+  }
+}/*# sourceMappingURL=header__open-menu.css.map */
