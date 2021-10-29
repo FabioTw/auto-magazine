@@ -7,4 +7,14 @@
   list-style: none;
   margin: 0 50px;
   padding: 0;
+}
+@media screen and (max-width: 1439px) {
+  .menu__links {
+    margin-left: 34px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .menu__links {
+    margin-left: 20px;
+  }
 }/*# sourceMappingURL=menu__links.css.map */

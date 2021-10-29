@@ -1,1 +1,1 @@
-{"version":3,"sources":["news__info.sass","../../../sass-settings/_mixins.sass"],"names":[],"mappings":"AAEA;EACE,uBAAA;ECFA,aAAA;EACA,8BDEM;ECDN,mBAHwC;EAIxC,mBAJ4D;EAK5D,iBALwE;ADO1E;ACKE;EDVF;IAKI,uBAAA;EAIF;AACF","file":"news__info.css"}
+{"version":3,"sources":["news__info.sass","../../../sass-settings/_mixins.sass"],"names":[],"mappings":"AAEA;EACE,uBAAA;ECFA,aAAA;EACA,8BDEM;ECDN,mBAHwC;EAIxC,mBAJ4D;EAK5D,iBALwE;ADO1E;ACKE;EDVF;IAKI,uBAAA;EAIF;AACF;ACKE;EDfF;IAQI,uBAAA;EAMF;AACF","file":"news__info.css"}

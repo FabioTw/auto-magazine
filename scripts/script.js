@@ -4,8 +4,9 @@ const galeryRightArrow = document.querySelector('.galery__right-arrow');
 const newsPointer = document.querySelectorAll('.news__pointer');
 const newsText = document.querySelector('.news__text');
 const active = document.querySelector('.active');
-const newsButton = document.querySelector('.news__button')
-const subscribeButton = document.querySelector('.subscribe__button')
+const newsButton = document.querySelector('.news__button');
+const subscribeButton = document.querySelector('.subscribe__button');
+const mobileMenuButton = document.querySelector('.header__open-menu');
 
 let nameIn = document.querySelector('.subscribe__name');
 let surname = document.querySelector('.subscribe__surname');
@@ -42,6 +43,7 @@ newsPointer[0].addEventListener('click', setActive);
 newsPointer[1].addEventListener('click', setActive);
 newsButton.addEventListener('click', openWeb);
 subscribeButton.addEventListener('click', subscribe);
+mobileMenuButton.addEventListener('click', openMenu);
 nameIn.addEventListener('input', check);
 surname.addEventListener('input', check);
 email.addEventListener('input', check);
@@ -105,4 +107,24 @@ function check() {
   subscribeButton.textContent = 'Подписка';
   }
   console.log(subscribeButton)
+}
+
+function openMenu() {
+  const logo = document.querySelector('.header__logo');
+  const menu = document.querySelector('.menu')
+  const header = document.querySelector('.header')
+  if (mobileMenuButton.classList.value ===  'header__open-menu')
+  {
+    mobileMenuButton.classList.add('header__open-menu-active');
+    mobileMenuButton.classList.remove('header__open-menu'); 
+    logo.style.display = 'none'
+    menu.style.display = 'block'
+    header.style.justifyContent = 'flex-start'
+  } else {
+    mobileMenuButton.classList.add('header__open-menu');
+    mobileMenuButton.classList.remove('header__open-menu-active'); 
+    logo.style.display = 'block'
+    menu.style.display = 'none'
+    header.style.justifyContent = 'center'
+  }
 }

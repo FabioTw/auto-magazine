@@ -13,6 +13,13 @@
   outline: none;
   box-sizing: border-box;
 }
+@media screen and (max-width: 760px) {
+  .subscribe__email {
+    width: 201px;
+    height: 32px;
+    grid-column-end: 10;
+  }
+}
 
 .subscribe__email::-moz-placeholder {
   color: #E1FD2C;

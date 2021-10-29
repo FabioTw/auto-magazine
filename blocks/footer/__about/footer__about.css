@@ -10,4 +10,10 @@
   .footer__about {
     border: none;
   }
+}
+@media screen and (max-width: 760px) {
+  .footer__about {
+    width: 97vw;
+    height: auto;
+  }
 }/*# sourceMappingURL=footer__about.css.map */

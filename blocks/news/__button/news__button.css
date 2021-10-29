@@ -7,6 +7,13 @@
   color: #E1FD2C;
   font-size: 19px;
 }
+@media screen and (max-width: 760px) {
+  .news__button {
+    width: 88px;
+    height: 42px;
+    font-size: 14px;
+  }
+}
 
 .news__button:hover {
   border: 1px solid #191D2C;

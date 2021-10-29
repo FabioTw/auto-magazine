@@ -8,6 +8,7 @@
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__open-menu/header__open-menu.css);
+@import url(../blocks/header/__open-menu-active/header__open-menu-active.css);
 @import url(../blocks/promote/promote.css);
 @import url(../blocks/promote/__about/promote__about.css);
 @import url(../blocks/promote/__about-auto/promote__about-auto.css);
@@ -25,6 +26,7 @@
 @import url(../blocks/description/__list-item/description__list-item.css);
 @import url(../blocks/description/__compare/description__compare.css);
 @import url(../blocks/galery/galery.css);
+@import url(../blocks/galery/__buttons/galery__buttons.css);
 @import url(../blocks/galery/__photo/galery__photo.css);
 @import url(../blocks/galery/__block/galery__block.css);
 @import url(../blocks/galery/__empty/galery__empty.css);
@@ -45,6 +47,7 @@
 @import url(../blocks/news/__pointer/news__pointer.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/subscribe/subscribe.css);
 @import url(../blocks/subscribe/__title/subscribe__title.css);
 @import url(../blocks/subscribe/__subtitle/subscribe__subtitle.css);
 @import url(../blocks/subscribe/__interact/subscribe__interact.css);

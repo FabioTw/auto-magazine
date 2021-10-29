@@ -4,7 +4,7 @@
 }
 @media screen and (max-width: 1439px) {
   .galery__photo {
-    margin: 34px 0 0 34px;
+    margin: 34px 0 0 24px;
     width: 700px;
     height: 510px;
   }

@@ -4,7 +4,12 @@
 }
 @media screen and (max-width: 1439px) {
   .galery__block {
-    width: 100vw;
+    width: 97vw;
     height: auto;
+  }
+}
+@media screen and (max-width: 760px) {
+  .galery__block {
+    min-width: 320px;
   }
 }/*# sourceMappingURL=galery__block.css.map */

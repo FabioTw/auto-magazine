@@ -1,4 +1,13 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width: 760px) {
+  .footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 }/*# sourceMappingURL=footer.css.map */

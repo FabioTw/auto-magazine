@@ -1,1 +1,1 @@
-{"version":3,"sources":["subscribe__subtitle.sass"],"names":[],"mappings":"AAEA;EACE,qBAAA;AADF","file":"subscribe__subtitle.css"}
+{"version":3,"sources":["subscribe__subtitle.sass","../../../sass-settings/_mixins.sass"],"names":[],"mappings":"AAEA;EACE,qBAAA;AADF;ACeE;EDfF;IAII,eAAA;IACA,iBAAA;IACA,qBAAA;EAAF;AACF","file":"subscribe__subtitle.css"}

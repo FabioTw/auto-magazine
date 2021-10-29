@@ -4,6 +4,17 @@
   letter-spacing: 1px;
   line-height: 16px;
 }
+@media screen and (max-width: 1439px) {
+  .menu__item {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .menu__item {
+    margin-right: 16px;
+    font-size: 11px;
+  }
+}
 
 .menu__item:last-of-type {
   margin: 27px 0;

@@ -12,6 +12,12 @@
   outline: none;
   box-sizing: border-box;
 }
+@media screen and (max-width: 760px) {
+  .subscribe__surname {
+    grid-column-start: 7;
+    grid-column-end: 13;
+  }
+}
 
 .subscribe__surname::-moz-placeholder {
   color: #E1FD2C;

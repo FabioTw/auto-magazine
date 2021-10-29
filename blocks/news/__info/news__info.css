@@ -10,4 +10,9 @@
   .news__info {
     margin: 259px 50px 47px;
   }
+}
+@media screen and (max-width: 760px) {
+  .news__info {
+    margin: 148px 20px 20px;
+  }
 }/*# sourceMappingURL=news__info.css.map */

@@ -1,10 +1,9 @@
 @import ../../../sass-settings/_imports
 
-.header__open-menu
-  background-image: none
+.header__open-menu-active
   display: none
-  +wh(26px, 22px)
-  background-image: url(../../../images/menu.svg)
+  +wh(36px, 36px)
+  background-image: url(../../../images/closeMenu.svg)
   background-color: $background
   border: none
   background-repeat: no-repeat
@@ -12,9 +11,8 @@
   +tablet
     display: block
     position: absolute
-    right: 34px
+    right: 28px
 
   +mobile
-    right: 20px
-    +wh(20px, 18px)
+    right: 14px
     background-size: cover
