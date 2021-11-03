@@ -2,11 +2,7 @@
   background-image: none;
   display: none;
   width: 26px;
-<<<<<<< HEAD
   min-height: 22px;
-=======
-  height: 22px;
->>>>>>> origin/revert-3-develop1
   background-image: url(../../../images/menu.svg);
   background-color: #191D2C;
   border: none;
@@ -23,11 +19,7 @@
   .header__open-menu {
     right: 20px;
     width: 20px;
-<<<<<<< HEAD
     min-height: 18px;
-=======
-    height: 18px;
->>>>>>> origin/revert-3-develop1
     background-size: cover;
   }
 }/*# sourceMappingURL=header__open-menu.css.map */

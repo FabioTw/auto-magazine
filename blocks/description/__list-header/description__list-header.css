@@ -11,11 +11,7 @@
 }
 @media screen and (max-width: 760px) {
   .description__list-header {
-<<<<<<< HEAD
     margin: 20px 0 40px 20px;
-=======
-    margin: 20px 0 40px 14px;
->>>>>>> origin/revert-3-develop1
     font-size: 22px;
     line-height: 22px;
   }

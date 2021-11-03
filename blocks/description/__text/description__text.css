@@ -4,20 +4,12 @@
   line-height: 42px;
   font-weight: 300;
   width: 564px;
-<<<<<<< HEAD
   min-height: 420px;
-=======
-  height: 420px;
->>>>>>> origin/revert-3-develop1
 }
 @media screen and (max-width: 1439px) {
   .description__text {
     width: 87%;
-<<<<<<< HEAD
     min-height: auto;
-=======
-    height: auto;
->>>>>>> origin/revert-3-develop1
     margin: 40px 50px 45px 50px;
   }
 }

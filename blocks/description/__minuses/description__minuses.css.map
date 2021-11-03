@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 {"version":3,"sources":["../../../sass-settings/_mixins.sass","description__minuses.sass"],"names":[],"mappings":"AAgBE;ECdF;IAEI,gBAAA;EADF;AACF;ADiBE;ECnBF;IDME,WCDM;IDEN,gBAFgC;ECEhC;AACF","file":"description__minuses.css"}
-=======
-{"version":3,"sources":["../../../sass-settings/_mixins.sass","description__minuses.sass"],"names":[],"mappings":"AAYE;ECVF;IAEI,gBAAA;EADF;AACF;ADaE;ECfF;IDME,WCDM;IDEN,YAFgC;ECEhC;AACF","file":"description__minuses.css"}
->>>>>>> origin/revert-3-develop1
