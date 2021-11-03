@@ -1,6 +1,7 @@
 .promote__image {
   width: 720px;
   height: 540px;
+  grid-area: photo;
 }
 @media screen and (max-width: 1439px) {
   .promote__image {
@@ -13,6 +14,6 @@
   .promote__image {
     width: 280px;
     height: 202px;
-    margin-top: 34px;
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=promote__image.css.map */

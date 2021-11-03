@@ -2,6 +2,8 @@
   width: 12px;
   height: 12px;
   margin-right: 11px;
+  border: 1px solid #E1FD2C;
+  border-radius: 100%;
 }
 
 .news__pointer:hover {
