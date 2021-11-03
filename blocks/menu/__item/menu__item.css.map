@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 {"version":3,"sources":["menu__item.sass","../../../sass-settings/_variables.sass","../../../sass-settings/_mixins.sass"],"names":[],"mappings":"AAGA;EACE,wBAAA;EACA,eCEU;EDDV,mBAAA;EACA,iBAAA;AAFF;AEWE;EFbF;IAOI,kBAAA;EADF;AACF;AEWE;EFlBF;IASI,kBAAA;IACA,eAAA;EAEF;AACF;;AADA;EACE,cAAA;AAIF","file":"menu__item.css"}
-=======
-{"version":3,"sources":["menu__item.sass","../../../sass-settings/_variables.sass","../../../sass-settings/_mixins.sass"],"names":[],"mappings":"AAGA;EACE,wBAAA;EACA,eCEU;EDDV,mBAAA;EACA,iBAAA;AAFF;AEOE;EFTF;IAOI,kBAAA;EADF;AACF;AEOE;EFdF;IASI,kBAAA;IACA,eAAA;EAEF;AACF;;AADA;EACE,cAAA;AAIF","file":"menu__item.css"}
->>>>>>> origin/revert-3-develop1

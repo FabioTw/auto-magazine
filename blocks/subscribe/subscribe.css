@@ -1,10 +1,6 @@
 @media screen and (max-width: 760px) {
   .subscribe {
     width: 97vw;
-<<<<<<< HEAD
     min-height: auto;
-=======
-    height: auto;
->>>>>>> origin/revert-3-develop1
   }
 }/*# sourceMappingURL=subscribe.css.map */

@@ -1,11 +1,7 @@
 .header__open-menu-active {
   display: none;
   width: 36px;
-<<<<<<< HEAD
   min-height: 36px;
-=======
-  height: 36px;
->>>>>>> origin/revert-3-develop1
   background-image: url(../../../images/closeMenu.svg);
   background-color: #191D2C;
   border: none;
