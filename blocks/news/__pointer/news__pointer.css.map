@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 {"version":3,"sources":["news__pointer.sass","../../../sass-settings/_mixins.sass"],"names":[],"mappings":"AAEA;ECUE,WDTK;ECUL,YDVW;EACX,kBAAA;EACA,yBAAA;EACA,mBAAA;AAAF;;AAEA;EACE,eAAA;AACF","file":"news__pointer.css"}
-=======
-{"version":3,"sources":["news__pointer.sass","../../../sass-settings/_mixins.sass"],"names":[],"mappings":"AAEA;ECME,WDLI;ECMJ,YDNU;EACV,kBAAA;AAAF;;AAEA;EACE,eAAA;AACF","file":"news__pointer.css"}
->>>>>>> origin/revert-3-develop1

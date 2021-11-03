@@ -1,10 +1,7 @@
 .promote__image {
   width: 720px;
   height: 540px;
-<<<<<<< HEAD
   grid-area: photo;
-=======
->>>>>>> origin/revert-3-develop1
 }
 @media screen and (max-width: 1439px) {
   .promote__image {
@@ -17,10 +14,6 @@
   .promote__image {
     width: 280px;
     height: 202px;
-<<<<<<< HEAD
     margin-top: 30px;
-=======
-    margin-top: 34px;
->>>>>>> origin/revert-3-develop1
   }
 }/*# sourceMappingURL=promote__image.css.map */
