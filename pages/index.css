@@ -6,18 +6,12 @@
 @import url(../blocks/menu/__links/menu__links.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__item/menu__item.css);
-<<<<<<< HEAD
 @import url(../blocks/menu/_active/menu_active.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__open-menu/header__open-menu.css);
 @import url(../blocks/header/__open-menu-active/header__open-menu-active.css);
 @import url(../blocks/header/__logo/_inactive/header__logo_inactive.css);
 @import url(../blocks/header/_active/header_active.css);
-=======
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__open-menu/header__open-menu.css);
-@import url(../blocks/header/__open-menu-active/header__open-menu-active.css);
->>>>>>> origin/revert-3-develop1
 @import url(../blocks/promote/promote.css);
 @import url(../blocks/promote/__about/promote__about.css);
 @import url(../blocks/promote/__about-auto/promote__about-auto.css);
@@ -41,14 +35,9 @@
 @import url(../blocks/galery/__empty/galery__empty.css);
 @import url(../blocks/galery/__info/galery__info.css);
 @import url(../blocks/galery/__header/galery__header.css);
-<<<<<<< HEAD
 @import url(../blocks/galery/__arrow/galery__arrow.css);
 @import url(../blocks/galery/__arrow/_button/galery__arrow_button_left.css);
 @import url(../blocks/galery/__arrow/_button/galery__arrow_button_right.css);
-=======
-@import url(../blocks/galery/__left-arrow/galery__left-arrow.css);
-@import url(../blocks/galery/__right-arrow/galery__right-arrow.css);
->>>>>>> origin/revert-3-develop1
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__header-block/news__header-block.css);
 @import url(../blocks/news/__header/news__header.css);
@@ -58,11 +47,7 @@
 @import url(../blocks/news/__button/news__button.css);
 @import url(../blocks/news/__message/news__message.css);
 @import url(../blocks/news/__pointers/news__pointers.css);
-<<<<<<< HEAD
 @import url(../blocks/news/__pointer/_active/news__pointer_active.css);
-=======
-@import url(../blocks/active/active.css);
->>>>>>> origin/revert-3-develop1
 @import url(../blocks/news/__pointer/news__pointer.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__about/footer__about.css);
@@ -70,16 +55,10 @@
 @import url(../blocks/subscribe/__title/subscribe__title.css);
 @import url(../blocks/subscribe/__subtitle/subscribe__subtitle.css);
 @import url(../blocks/subscribe/__interact/subscribe__interact.css);
-<<<<<<< HEAD
 @import url(../blocks/subscribe/__field/subscribe__field.css);
 @import url(../blocks/subscribe/__field/_enter/subscribe__field_enter_name.css);
 @import url(../blocks/subscribe/__field/_enter/subscribe__field_enter_surname.css);
 @import url(../blocks/subscribe/__field/_enter/subscribe__field_enter_email.css);
-=======
-@import url(../blocks/subscribe/__name/subscribe__name.css);
-@import url(../blocks/subscribe/__surname/subscribe__surname.css);
-@import url(../blocks/subscribe/__email/subscribe__email.css);
->>>>>>> origin/revert-3-develop1
 @import url(../blocks/subscribe/__button/subscribe__button.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
