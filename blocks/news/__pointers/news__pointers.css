@@ -1,6 +1,11 @@
 .news__pointers {
   margin-top: 38px;
   align-self: flex-end;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 @media screen and (max-width: 760px) {
   .news__pointers {

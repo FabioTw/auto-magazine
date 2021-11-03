@@ -5,7 +5,7 @@
 @media screen and (max-width: 1439px) {
   .galery__block {
     width: 97vw;
-    height: auto;
+    min-height: auto;
   }
 }
 @media screen and (max-width: 760px) {

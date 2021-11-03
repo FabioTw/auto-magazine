@@ -2,7 +2,7 @@
   background-image: none;
   display: none;
   width: 26px;
-  height: 22px;
+  min-height: 22px;
   background-image: url(../../../images/menu.svg);
   background-color: #191D2C;
   border: none;
@@ -19,7 +19,7 @@
   .header__open-menu {
     right: 20px;
     width: 20px;
-    height: 18px;
+    min-height: 18px;
     background-size: cover;
   }
 }/*# sourceMappingURL=header__open-menu.css.map */

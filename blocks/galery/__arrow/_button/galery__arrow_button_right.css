@@ -1,0 +1,9 @@
+.galery__arrow_button_right {
+  background-image: url(../../../../images/arrowRight.svg);
+}
+@media screen and (max-width: 760px) {
+  .galery__arrow_button_right {
+    margin-top: 30px;
+    margin-right: 19px;
+  }
+}/*# sourceMappingURL=galery__arrow_button_right.css.map */
