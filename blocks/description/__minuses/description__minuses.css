@@ -6,6 +6,10 @@
 @media screen and (max-width: 760px) {
   .description__minuses {
     width: 97vw;
+<<<<<<< HEAD
     min-height: auto;
+=======
+    height: auto;
+>>>>>>> origin/revert-3-develop1
   }
 }/*# sourceMappingURL=description__minuses.css.map */

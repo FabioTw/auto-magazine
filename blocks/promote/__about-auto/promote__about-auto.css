@@ -1,4 +1,5 @@
 .promote__about-auto {
+<<<<<<< HEAD
   margin: 30px 0 30px;
   font-size: 19px;
   text-transform: uppercase;
@@ -9,6 +10,12 @@
   .promote__about-auto {
     margin: 0 0 30px;
   }
+=======
+  margin: 0 0 30px;
+  font-size: 19px;
+  text-transform: uppercase;
+  line-height: 28px;
+>>>>>>> origin/revert-3-develop1
 }
 @media screen and (max-width: 760px) {
   .promote__about-auto {
@@ -16,8 +23,11 @@
     line-height: 14px;
     margin: 0 0 26px;
   }
+<<<<<<< HEAD
 }
 
 .promote__about-auto:last-of-type {
   margin: 0 0 30px;
+=======
+>>>>>>> origin/revert-3-develop1
 }/*# sourceMappingURL=promote__about-auto.css.map */

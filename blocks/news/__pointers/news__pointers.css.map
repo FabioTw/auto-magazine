@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["news__pointers.sass","../../../sass-settings/_mixins.sass"],"names":[],"mappings":"AAEA;EACE,gBAAA;EACA,oBAAA;ECHA,aAAA;EACA,2BAFoB;EAGpB,mBAHwC;EAIxC,mBAJ4D;EAK5D,iBALwE;ADQ1E;ACaE;EDnBF;IAMI,gBAAA;EAIF;AACF","file":"news__pointers.css"}
+=======
+{"version":3,"sources":["news__pointers.sass","../../../sass-settings/_mixins.sass"],"names":[],"mappings":"AAEA;EACE,gBAAA;EACA,oBAAA;AADF;ACcE;EDfF;IAKI,gBAAA;EAAF;AACF","file":"news__pointers.css"}
+>>>>>>> origin/revert-3-develop1

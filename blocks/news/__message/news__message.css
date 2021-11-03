@@ -5,6 +5,10 @@
   .news__message {
     border: none;
     width: 100%;
+<<<<<<< HEAD
     min-height: auto;
+=======
+    height: auto;
+>>>>>>> origin/revert-3-develop1
   }
 }/*# sourceMappingURL=news__message.css.map */

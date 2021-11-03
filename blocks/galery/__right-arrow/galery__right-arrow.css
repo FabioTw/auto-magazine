@@ -1,0 +1,22 @@
+.galery__right-arrow {
+  background-color: #191D2C;
+  border: none;
+  background-image: url(../../../images/arrowRight.svg);
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 34px;
+}
+@media screen and (max-width: 760px) {
+  .galery__right-arrow {
+    width: 24px;
+    height: 20px;
+    background-size: cover;
+    margin-top: 30px;
+    margin-right: 19px;
+  }
+}
+
+.galery__right-arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}/*# sourceMappingURL=galery__right-arrow.css.map */

@@ -6,7 +6,11 @@
   .footer__logo {
     margin: 59px 0 20px 14px;
     width: 280px;
+<<<<<<< HEAD
     min-height: 58px;
+=======
+    height: 58px;
+>>>>>>> origin/revert-3-develop1
     align-self: flex-start;
   }
 }/*# sourceMappingURL=footer__logo.css.map */

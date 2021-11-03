@@ -6,7 +6,11 @@
   .description__compare {
     border-top: 1px solid #E1FD2C;
     width: 100%;
+<<<<<<< HEAD
     min-height: auto;
+=======
+    height: auto;
+>>>>>>> origin/revert-3-develop1
   }
 }
 @media screen and (max-width: 760px) {

@@ -5,7 +5,11 @@
 @media screen and (max-width: 1439px) {
   .galery__block {
     width: 97vw;
+<<<<<<< HEAD
     min-height: auto;
+=======
+    height: auto;
+>>>>>>> origin/revert-3-develop1
   }
 }
 @media screen and (max-width: 760px) {

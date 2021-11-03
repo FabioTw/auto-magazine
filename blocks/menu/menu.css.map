@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["../../sass-settings/_mixins.sass","menu.sass"],"names":[],"mappings":"AAgBE;ECdF;IAEI,aAAA;IACA,wBAAA;EADF;AACF","file":"menu.css"}
+=======
+{"version":3,"sources":["../../sass-settings/_mixins.sass","menu.sass"],"names":[],"mappings":"AAYE;ECVF;IAEI,aAAA;IACA,wBAAA;EADF;AACF","file":"menu.css"}
+>>>>>>> origin/revert-3-develop1

@@ -1,4 +1,5 @@
 const galeryPhoto = document.querySelector('.galery__photo');
+<<<<<<< HEAD
 const galeryLeftArrow = document.querySelector('.galery__arrow_button_left');
 const galeryRightArrow = document.querySelector('.galery__arrow_button_right');
 const newsPointers = document.querySelectorAll('.news__pointer');
@@ -15,6 +16,20 @@ const email = document.querySelector('.subscribe__email');
 const logo = document.querySelector('.header__logo');
 const menu = document.querySelector('.menu')
 const header = document.querySelector('.header')
+=======
+const galeryLeftArrow = document.querySelector('.galery__left-arrow');
+const galeryRightArrow = document.querySelector('.galery__right-arrow');
+const newsPointer = document.querySelectorAll('.news__pointer');
+const newsText = document.querySelector('.news__text');
+const active = document.querySelector('.active');
+const newsButton = document.querySelector('.news__button');
+const subscribeButton = document.querySelector('.subscribe__button');
+const mobileMenuButton = document.querySelector('.header__open-menu');
+
+let nameIn = document.querySelector('.subscribe__name');
+let surname = document.querySelector('.subscribe__surname');
+let email = document.querySelector('.subscribe__email');
+>>>>>>> origin/revert-3-develop1
 
 const photos = [
   {
@@ -41,6 +56,7 @@ const news = [
   }
 ];
 
+<<<<<<< HEAD
 if (newsPointers[0].classList.contains('news__pointer_active')) {
   newsLink.href = news[1].link
 } else {
@@ -52,6 +68,13 @@ galeryRightArrow.addEventListener('click', nextPicture);
 newsPointers[0].addEventListener('click', setActive);
 newsPointers[1].addEventListener('click', setActive);
 // newsButton.addEventListener('click', openWeb);
+=======
+galeryLeftArrow.addEventListener('click', pastPicture);
+galeryRightArrow.addEventListener('click', nextPicture);
+newsPointer[0].addEventListener('click', setActive);
+newsPointer[1].addEventListener('click', setActive);
+newsButton.addEventListener('click', openWeb);
+>>>>>>> origin/revert-3-develop1
 subscribeButton.addEventListener('click', subscribe);
 mobileMenuButton.addEventListener('click', openMenu);
 nameIn.addEventListener('input', check);
@@ -87,6 +110,7 @@ function nextPicture() {
 }
 
 function setActive() {
+<<<<<<< HEAD
   if (newsPointers[0].classList.contains('news__pointer_active')) {
     newsPointers[0].classList.toggle('news__pointer_active');
     newsPointers[1].classList.toggle('news__pointer_active');
@@ -110,6 +134,26 @@ function setActive() {
 //     window.open(news[0].link);
 //   }
 // }
+=======
+  if (newsPointer[0].classList.contains('active')) {
+    newsPointer[0].classList.toggle('active');
+    newsPointer[1].classList.toggle('active');
+    newsText.innerHTML = news[0].text;
+  } else if (newsPointer[1].classList.contains('active')) {
+    newsPointer[0].classList.toggle('active');
+    newsPointer[1].classList.toggle('active');
+    newsText.innerHTML = news[1].text;
+  }
+}
+
+function openWeb() {
+  if (newsPointer[0].classList.contains('active')) {
+    window.open(news[1].link);
+  } else if (newsPointer[1].classList.contains('active')) {
+    window.open(news[0].link);
+  }
+}
+>>>>>>> origin/revert-3-develop1
 
 function subscribe() {
   check();
@@ -125,10 +169,17 @@ function check() {
 }
 
 function openMenu() {
+<<<<<<< HEAD
+=======
+  const logo = document.querySelector('.header__logo');
+  const menu = document.querySelector('.menu')
+  const header = document.querySelector('.header')
+>>>>>>> origin/revert-3-develop1
   if (mobileMenuButton.classList.value ===  'header__open-menu')
   {
     mobileMenuButton.classList.add('header__open-menu-active');
     mobileMenuButton.classList.remove('header__open-menu'); 
+<<<<<<< HEAD
     logo.classList.add('header__logo_inactive');
     menu.classList.add('menu_active');
     header.classList.add('header_active');
@@ -138,5 +189,16 @@ function openMenu() {
     logo.classList.remove('header__logo_inactive');
     menu.classList.remove('menu_active');
     header.classList.remove('header_active');
+=======
+    logo.style.display = 'none'
+    menu.style.display = 'block'
+    header.style.justifyContent = 'flex-start'
+  } else {
+    mobileMenuButton.classList.add('header__open-menu');
+    mobileMenuButton.classList.remove('header__open-menu-active'); 
+    logo.style.display = 'block'
+    menu.style.display = 'none'
+    header.style.justifyContent = 'center'
+>>>>>>> origin/revert-3-develop1
   }
 }

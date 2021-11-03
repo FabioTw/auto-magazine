@@ -4,7 +4,11 @@
 @media screen and (max-width: 760px) {
   .header__logo {
     width: 100px;
+<<<<<<< HEAD
     min-height: 20px;
+=======
+    height: 20px;
+>>>>>>> origin/revert-3-develop1
     margin: 25px calc(50% - 350px);
   }
 }/*# sourceMappingURL=header__logo.css.map */

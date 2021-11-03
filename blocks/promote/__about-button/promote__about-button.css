@@ -1,11 +1,16 @@
 .promote__about-button {
   font-size: 15px;
   width: 360px;
+<<<<<<< HEAD
   min-height: 64px;
+=======
+  height: 64px;
+>>>>>>> origin/revert-3-develop1
   border: 1px solid #E1FD2C;
   background-color: #191D2C;
   color: #E1FD2C;
   text-transform: uppercase;
+<<<<<<< HEAD
   margin: 0 auto 0;
   box-sizing: border-box;
   grid-area: button;
@@ -13,13 +18,29 @@
 @media screen and (max-width: 1439px) {
   .promote__about-button {
     margin: 100px 0 0;
+=======
+  margin: 30px 0 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1439px) {
+  .promote__about-button {
+    position: absolute;
+    top: 1065px;
+    margin: 0;
+>>>>>>> origin/revert-3-develop1
   }
 }
 @media screen and (max-width: 760px) {
   .promote__about-button {
+<<<<<<< HEAD
     margin: 60px 0 0;
     width: 280px;
     min-height: 64px;
+=======
+    top: 556px;
+    width: 280px;
+    height: 64px;
+>>>>>>> origin/revert-3-develop1
   }
 }
 

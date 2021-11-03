@@ -2,8 +2,11 @@
   width: 12px;
   height: 12px;
   margin-right: 11px;
+<<<<<<< HEAD
   border: 1px solid #E1FD2C;
   border-radius: 100%;
+=======
+>>>>>>> origin/revert-3-develop1
 }
 
 .news__pointer:hover {

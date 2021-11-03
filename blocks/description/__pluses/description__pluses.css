@@ -6,14 +6,22 @@
   .description__pluses {
     border-left: none;
     width: auto;
+<<<<<<< HEAD
     min-height: 505px;
+=======
+    height: 505px;
+>>>>>>> origin/revert-3-develop1
   }
 }
 @media screen and (max-width: 760px) {
   .description__pluses {
     border-right: none;
     width: 97vw;
+<<<<<<< HEAD
     min-height: auto;
+=======
+    height: auto;
+>>>>>>> origin/revert-3-develop1
     border-bottom: 1px solid #E1FD2C;
   }
 }/*# sourceMappingURL=description__pluses.css.map */
