@@ -1,0 +1,19 @@
+.galery__arrow {
+  background-color: #191D2C;
+  border: none;
+  background-repeat: no-repeat;
+  width: 43px;
+  min-height: 34px;
+}
+@media screen and (max-width: 760px) {
+  .galery__arrow {
+    width: 24px;
+    min-height: 20px;
+    background-size: cover;
+  }
+}
+
+.galery__arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}/*# sourceMappingURL=galery__arrow.css.map */

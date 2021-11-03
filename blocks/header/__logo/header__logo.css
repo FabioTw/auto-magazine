@@ -4,7 +4,7 @@
 @media screen and (max-width: 760px) {
   .header__logo {
     width: 100px;
-    height: 20px;
+    min-height: 20px;
     margin: 25px calc(50% - 350px);
   }
 }/*# sourceMappingURL=header__logo.css.map */

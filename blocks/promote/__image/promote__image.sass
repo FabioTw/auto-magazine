@@ -1,13 +1,13 @@
 @import ../../../sass-settings/_imports
 
 .promote__image
-  +wh($desctop-image-weight, $desctop-image-height)
+  +whs($desctop-image-weight, $desctop-image-height)
+  grid-area: photo
 
   +tablet
-    +wh($tablet-image-weight, $tablet-image-height)
-    // margin-bottom: 264px
+    +whs($tablet-image-weight, $tablet-image-height)
     margin-top: 70px
 
   +mobile
-    +wh($mobile-image-weight, $mobile-image-height)
-    margin-top: 34px
+    +whs($mobile-image-weight, $mobile-image-height)
+    margin-top: 30px

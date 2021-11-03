@@ -27,9 +27,9 @@
           <h2 class="promote__about-auto">volkswagen T1</h2>
           <h1 class="promote__about-header">Новая версия популярного микроавтобуса</h1>
           <h2 class="promote__about-auto">с электро двигателем</h2>
-          <button class="promote__about-button">подробнее</button>
         </div>
         <img src="/images/promote.png" alt="фото Volkswagen T1" class="promote__image">
+        <a href="#facts"><button class="promote__about-button">подробнее</button></a>
       </section>
       <section class="description" id="facts">
         <p class="description__text">
@@ -63,8 +63,8 @@
           <div class="galery__info">
             <h2 class="galery__header">Галерея</h2>
             <div class="galery__buttons">
-              <button class="galery__left-arrow"></button>
-              <button class="galery__right-arrow"></button>
+              <button class="galery__arrow galery__arrow_button_left"></button>
+              <button class="galery__arrow galery__arrow_button_right"></button>
             </div>  
           </div>
         </div>
@@ -78,10 +78,10 @@
           <p class="news__text"><span class="news__text-span">Engadget: </span>VW’s e-BULLI concept shows how your classic van can become an EV.</p>
           <div class="news__info">
             <div class="news__pointers">
-              <img src="./images/newsPointer.svg" alt="указатель выбраной новости" class="news__pointer active">
-              <img src="./images/newsPointer.svg" alt="указатель выбраной новости" class="news__pointer">
+              <div class="news__pointer news__pointer_active"></div>
+              <div class="news__pointer"></div>
             </div>
-            <button class="news__button">Читать</button>
+            <a class="news__link" href="#"><button class="news__button">Читать</button></a>
           </div>
         </div>
       </section>
@@ -91,15 +91,15 @@
         <h2 class="subscribe__title">Подписка</h2>
         <h3 class="subscribe__subtitle">На новые спецвыпуски машин.</h3>
         <form class="subscribe__interact">
-          <input type="text" class="subscribe__name" name="name" placeholder="ИМЯ" required="required">
-          <input type="text" class="subscribe__surname" name="surname" placeholder="ФАМИЛИЯ" required="required">
-          <input type="email" class="subscribe__email" name="email" placeholder="ПОЧТА" required="required">
+          <input type="text" class="subscribe__field subscribe__field_enter_name" name="name" placeholder="ИМЯ" required="required">
+          <input type="text" class="subscribe__field subscribe__field_enter_surname" name="surname" placeholder="ФАМИЛИЯ" required="required">
+          <input type="email" class="subscribe__field subscribe__field_enter_email" name="email" placeholder="ПОЧТА" required="required">
           <button class="subscribe__button">Подписка</button>
         </form>       
       </div>
       <div class="footer__about">
         <img src="./images/logo.svg" alt="Логотип сайта" class="footer__logo">
-        <h3 class="footer__copyright">© Auto-Magazine 2021</h3>
+        <p class="footer__copyright">© Auto-Magazine 2021</p>
       </div>
     </footer>
   </div>

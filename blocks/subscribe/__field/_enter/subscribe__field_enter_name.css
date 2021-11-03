@@ -1,0 +1,14 @@
+.subscribe__field_enter_name {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 170px;
+  min-height: 35px;
+  border-bottom: none;
+}
+@media screen and (max-width: 760px) {
+  .subscribe__field_enter_name {
+    width: 140px;
+    min-height: 32px;
+    grid-column-end: 7;
+  }
+}/*# sourceMappingURL=subscribe__field_enter_name.css.map */

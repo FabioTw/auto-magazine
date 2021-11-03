@@ -1,28 +1,16 @@
-.subscribe__name {
+.subscribe__field {
   font-size: 9px;
   line-height: 18px;
   letter-spacing: 1px;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  width: 170px;
-  height: 35px;
   background-color: #191D2C;
   border: 1px solid #E1FD2C;
-  border-bottom: none;
   color: #E1FD2C;
   padding-left: 11px;
   outline: none;
   box-sizing: border-box;
 }
-@media screen and (max-width: 760px) {
-  .subscribe__name {
-    width: 140px;
-    height: 32px;
-    grid-column-end: 7;
-  }
-}
 
-.subscribe__name::-moz-placeholder {
+.subscribe__field::-moz-placeholder {
   color: #E1FD2C;
   font-size: 9px;
   line-height: 18px;
@@ -30,7 +18,7 @@
   text-transform: uppercase;
 }
 
-.subscribe__name:-ms-input-placeholder {
+.subscribe__field:-ms-input-placeholder {
   color: #E1FD2C;
   font-size: 9px;
   line-height: 18px;
@@ -38,10 +26,10 @@
   text-transform: uppercase;
 }
 
-.subscribe__name::placeholder {
+.subscribe__field::placeholder {
   color: #E1FD2C;
   font-size: 9px;
   line-height: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
-}/*# sourceMappingURL=subscribe__name.css.map */
+}/*# sourceMappingURL=subscribe__field.css.map */

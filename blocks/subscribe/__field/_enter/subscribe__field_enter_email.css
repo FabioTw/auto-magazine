@@ -1,0 +1,13 @@
+.subscribe__field_enter_email {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 260px;
+  min-height: 32px;
+}
+@media screen and (max-width: 760px) {
+  .subscribe__field_enter_email {
+    width: 201px;
+    min-height: 32px;
+    grid-column-end: 10;
+  }
+}/*# sourceMappingURL=subscribe__field_enter_email.css.map */

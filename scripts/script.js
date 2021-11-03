@@ -1,16 +1,20 @@
 const galeryPhoto = document.querySelector('.galery__photo');
-const galeryLeftArrow = document.querySelector('.galery__left-arrow');
-const galeryRightArrow = document.querySelector('.galery__right-arrow');
-const newsPointer = document.querySelectorAll('.news__pointer');
+const galeryLeftArrow = document.querySelector('.galery__arrow_button_left');
+const galeryRightArrow = document.querySelector('.galery__arrow_button_right');
+const newsPointers = document.querySelectorAll('.news__pointer');
 const newsText = document.querySelector('.news__text');
-const active = document.querySelector('.active');
+const active = document.querySelector('.news__pointer_active');
 const newsButton = document.querySelector('.news__button');
+const newsLink = document.querySelector('.news__link');
 const subscribeButton = document.querySelector('.subscribe__button');
 const mobileMenuButton = document.querySelector('.header__open-menu');
+const nameIn = document.querySelector('.subscribe__name');
+const surname = document.querySelector('.subscribe__surname');
+const email = document.querySelector('.subscribe__email');
 
-let nameIn = document.querySelector('.subscribe__name');
-let surname = document.querySelector('.subscribe__surname');
-let email = document.querySelector('.subscribe__email');
+const logo = document.querySelector('.header__logo');
+const menu = document.querySelector('.menu')
+const header = document.querySelector('.header')
 
 const photos = [
   {
@@ -37,11 +41,17 @@ const news = [
   }
 ];
 
+if (newsPointers[0].classList.contains('news__pointer_active')) {
+  newsLink.href = news[1].link
+} else {
+  newsLink.href = news[0].link
+}
+
 galeryLeftArrow.addEventListener('click', pastPicture);
 galeryRightArrow.addEventListener('click', nextPicture);
-newsPointer[0].addEventListener('click', setActive);
-newsPointer[1].addEventListener('click', setActive);
-newsButton.addEventListener('click', openWeb);
+newsPointers[0].addEventListener('click', setActive);
+newsPointers[1].addEventListener('click', setActive);
+// newsButton.addEventListener('click', openWeb);
 subscribeButton.addEventListener('click', subscribe);
 mobileMenuButton.addEventListener('click', openMenu);
 nameIn.addEventListener('input', check);
@@ -77,24 +87,29 @@ function nextPicture() {
 }
 
 function setActive() {
-  if (newsPointer[0].classList.contains('active')) {
-    newsPointer[0].classList.toggle('active');
-    newsPointer[1].classList.toggle('active');
+  if (newsPointers[0].classList.contains('news__pointer_active')) {
+    newsPointers[0].classList.toggle('news__pointer_active');
+    newsPointers[1].classList.toggle('news__pointer_active');
     newsText.innerHTML = news[0].text;
-  } else if (newsPointer[1].classList.contains('active')) {
-    newsPointer[0].classList.toggle('active');
-    newsPointer[1].classList.toggle('active');
+  } else if (newsPointers[1].classList.contains('news__pointer_active')) {
+    newsPointers[0].classList.toggle('news__pointer_active');
+    newsPointers[1].classList.toggle('news__pointer_active');
     newsText.innerHTML = news[1].text;
+  }
+  if (newsPointers[0].classList.contains('news__pointer_active')) {
+    newsLink.href = news[1].link
+  } else {
+    newsLink.href = news[0].link
   }
 }
 
-function openWeb() {
-  if (newsPointer[0].classList.contains('active')) {
-    window.open(news[1].link);
-  } else if (newsPointer[1].classList.contains('active')) {
-    window.open(news[0].link);
-  }
-}
+// function openWeb() {
+//   if (newsPointers[0].classList.contains('news__pointer_active')) {
+//     window.open(news[1].link);
+//   } else if (newsPointers[1].classList.contains('news__pointer_active')) {
+//     window.open(news[0].link);
+//   }
+// }
 
 function subscribe() {
   check();
@@ -110,21 +125,18 @@ function check() {
 }
 
 function openMenu() {
-  const logo = document.querySelector('.header__logo');
-  const menu = document.querySelector('.menu')
-  const header = document.querySelector('.header')
   if (mobileMenuButton.classList.value ===  'header__open-menu')
   {
     mobileMenuButton.classList.add('header__open-menu-active');
     mobileMenuButton.classList.remove('header__open-menu'); 
-    logo.style.display = 'none'
-    menu.style.display = 'block'
-    header.style.justifyContent = 'flex-start'
+    logo.classList.add('header__logo_inactive');
+    menu.classList.add('menu_active');
+    header.classList.add('header_active');
   } else {
     mobileMenuButton.classList.add('header__open-menu');
     mobileMenuButton.classList.remove('header__open-menu-active'); 
-    logo.style.display = 'block'
-    menu.style.display = 'none'
-    header.style.justifyContent = 'center'
+    logo.classList.remove('header__logo_inactive');
+    menu.classList.remove('menu_active');
+    header.classList.remove('header_active');
   }
 }

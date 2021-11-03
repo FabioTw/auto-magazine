@@ -1,0 +1,11 @@
+.subscribe__field_enter_surname {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  border-bottom: none;
+}
+@media screen and (max-width: 760px) {
+  .subscribe__field_enter_surname {
+    grid-column-start: 7;
+    grid-column-end: 13;
+  }
+}/*# sourceMappingURL=subscribe__field_enter_surname.css.map */
